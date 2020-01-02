@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     GLuint vbPositionsID;
     glGenBuffers(1,&vbPositionsID);
     glBindBuffer(GL_ARRAY_BUFFER, vbPositionsID);
-
+	// test one two one two
     float tabPositions[] = {
          0.5,  0.5,  0.5, //0
         -0.5,  0.5,  0.5, //1
